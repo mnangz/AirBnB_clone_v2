@@ -1,5 +1,6 @@
 #!/usr/bin/python3
-""" Function that compress a folder """
+"""Function that compress the web static folder"""
+
 from datetime import datetime
 from fabric.api import local
 import os
