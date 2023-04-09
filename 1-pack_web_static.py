@@ -7,6 +7,8 @@ import os
 
 
 def do_pack():
+    """Function that compress the web static folder"""
+
     try:
         if not os.path.exists("versions"):
             local('mkdir versions')
