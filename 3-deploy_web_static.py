@@ -6,7 +6,8 @@ import os
 import shlex
 
 
-env.hosts = ['54.157.32.137','52.55.249.213']
+env.hosts = ['52.201.192.163', '23.23.74.79']
+env.key_filename = '~/.ssh/id_rsa'
 env.user = "ubuntu"
 
 
